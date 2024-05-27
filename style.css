@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    perspective: 500px;
+}
+img{
+    width: 500px;
+}
+img:hover{
+    transition: 3s;
+    transform: rotateX(360deg) rotateZ(360deg) rotateY(360deg);
+}
