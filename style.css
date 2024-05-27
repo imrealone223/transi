@@ -11,7 +11,7 @@ body{
 img{
     width: 500px;
 }
-img:hover{
+/* img:hover{
     transition: 3s;
     transform: rotateX(360deg) rotateZ(360deg) rotateY(360deg);
-}
+} */
